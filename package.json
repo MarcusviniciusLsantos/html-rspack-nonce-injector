@@ -8,15 +8,23 @@
     "test": "echo 'No tests available yet'",
     "prepare": "npm run build"
   },
+  "peerDependencies": {
+    "html-rspack-plugin": "^6.0.2"
+  },
+  "author": "Marcusviniciusls",
+  "license": "MIT",
   "keywords": [
     "rspack",
     "html-rspack-plugin",
     "nonce",
     "security"
   ],
-  "author": "Marcusviniciusls",
-  "license": "MIT",
-  "peerDependencies": {
-    "html-rspack-plugin": "^6.0.2"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcusviniciusLsantos/html-rspack-nonce-injector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MarcusviniciusLsantos/html-rspack-nonce-injector/issues"
+  },
+  "homepage": "https://github.com/MarcusviniciusLsantos/html-rspack-nonce-injector#readme"
 }

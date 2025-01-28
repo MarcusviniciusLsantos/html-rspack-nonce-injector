@@ -1,0 +1,22 @@
+{
+  "name": "html-rspack-nonce-injector",
+  "version": "1.0.0",
+  "description": "A nonce injector plugin for HtmlRspackPlugin.",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'No build step required'",
+    "test": "echo 'No tests available yet'",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "rspack",
+    "html-rspack-plugin",
+    "nonce",
+    "security"
+  ],
+  "author": "Marcusviniciusls",
+  "license": "MIT",
+  "peerDependencies": {
+    "html-rspack-plugin": "^6.0.2"
+  }
+}

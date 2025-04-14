@@ -17,7 +17,6 @@ class NonceInjector {
    */
   apply(compiler) {
     compiler.hooks.thisCompilation.tap('NonceInjector', (compilation) => {
-      console.log('data debug ==>', compilation, compiler.options.plugins)
       // Use HtmlRspackPlugin from the compilation context
       const hooks = compiler.options.plugins
         .find((plugin) => plugin.constructor.name === 'HtmlRspackPlugin')
